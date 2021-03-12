@@ -10,9 +10,10 @@
 </head>
 
 <body>
+
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img src="~/img/logo.png" width="30" height="30" class="d-inline-block align-top">
-        <a class="navbar-brand" href="">Ceet Vasco Coutinho</a>
+        <a class="navbar-brand" href="https://ceetvascocoutinho.com.br">Ceet Vasco Coutinho</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -20,13 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="~/Index.cshtml">Home <span class="sr-only">(Página atual)</span></a>
+                    <a class="nav-link" href="~/Index.cshtml">~/Index.cshtml</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="~/conteudo1.cshtml">Curso Técnico em Estética</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria de Fotos</a>
+                    <a class="nav-link" href="~/conteudo2.cshtml">Galeria de Fotos</a>
+                </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="~/formulario.aspx">Cadastre-se</a>
                 </li>
                
             </ul>
@@ -44,7 +48,7 @@
   </div>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Lembrar este usuário</label>
+      <label class="form-check-label" for="exampleCheck1">Lembrar usuário</label>
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
