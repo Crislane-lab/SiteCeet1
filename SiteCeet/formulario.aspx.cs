@@ -13,5 +13,25 @@ namespace SiteCeet
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Index.cshtml", false);
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("conteudo1.cshtml", false);
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("conteudo2.cshtml", false);
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
